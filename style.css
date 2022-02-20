@@ -1,0 +1,69 @@
+table {
+    font-style: 12px;
+    border: 1px solid #eee;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+
+table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+table td {
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+#save {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: inline-block;
+    padding: 20px 40px;
+    background: #e6e6e6;
+    border-radius: 30px;
+}
+input {
+    border-radius: 10px;
+    margin: 12px 0;
+    padding: 8px 16px;
+    font-size: 16px;
+    display: block;
+}
+label {
+    font-size: 20px;
+}
+#edit {
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.close {
+    display: none;
+}
